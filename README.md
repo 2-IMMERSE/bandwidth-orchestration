@@ -60,7 +60,7 @@ cases for such management to help take better advantage of multi-client knowledg
 to improve DASH performance. SAND defines all the metrics as optional and allows for custom metrics as
 well.
 
-The SANDPlayer component of the [Bandwidth Orchestration Client](https://gitlab-ext.irt.de/2-immerse/bandwidth-orchestration-client)
+The SANDPlayer component of the [Bandwidth Orchestration Client](https://github.com/2-IMMERSE/bandwidth-orchestration-client)
 uses the SAND specifications to send usage data to BOS. BOS then tries to filter out bad data such as
 data that indicated using segments from the browser's cache (unrealistically high bandwidth usage) and
 pushes good data into a TimeSeries DB. We use InfluxDB.
